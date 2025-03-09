@@ -1,8 +1,8 @@
 import { Box, Flex, Heading } from "@chakra-ui/react"
 
-export const HeaderComponent = () => {
+const HeaderSection = () => {
     return (
-        <Flex justifyContent={"center"} flexDirection={"column"} marginBottom={5}>
+        <Flex justifyContent={"center"} alignItems={"center"} flexDirection={"column"} marginBottom={5} width={"100%"}>
             <Heading bgGradient='linear(to-l, #fd1d1d, #fcb045)'
                 bgClip='text'>
                 Pallette Colors AI
@@ -13,3 +13,5 @@ export const HeaderComponent = () => {
         </Flex>
     )
 }
+
+export default HeaderSection;

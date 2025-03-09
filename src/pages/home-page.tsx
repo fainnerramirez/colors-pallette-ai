@@ -1,11 +1,15 @@
-import { HeaderComponent } from "../components/header-component"
-import { Pallettes } from "../components/pallettes"
+import SearchPalletteSection from "../components/search-pallette-section"
+import HeaderSection from "../sections/header-section"
+import PalletteOptionsSection from "../sections/pallette-option-section"
+import PalletteSection from "../sections/pallette-section"
 
 export const HomePage = () => {
     return (
         <>
-            <HeaderComponent />
-            <Pallettes />
+            <HeaderSection />
+            <PalletteOptionsSection />
+            <SearchPalletteSection />
+            <PalletteSection />
         </>
     )
 }

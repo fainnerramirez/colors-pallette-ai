@@ -1,9 +1,5 @@
 import { Button } from "@chakra-ui/react"
-
-export type PalletteProps = {
-    colorSheme: string,
-    text: string,
-}
+import { PalletteProps } from "../types/palletteType"
 
 export const PalletteOption: React.FC<PalletteProps> = ({ colorSheme, text }) => {
     return (

@@ -1,0 +1,23 @@
+.pallette {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    max-width: 18rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.pallette__item {
+    height: 100px;
+    width: 95%;
+    margin: auto;
+}
+
+.pallette__container {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
